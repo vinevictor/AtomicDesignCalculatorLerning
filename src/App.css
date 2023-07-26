@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100px;
   pointer-events: none;
 }
 
@@ -24,10 +24,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +31,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.flexColum {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
+.operationButton{
+  width: 50px;
+  height: 50px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.NumberInput{
+  width: 50px;
+  height: 30px;
+}
+
+.results{
+  font-size: 20px;
 }
