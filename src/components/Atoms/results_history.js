@@ -8,7 +8,7 @@ const ResultsHistory = ({history}) =>{
             <h3>Historico de Resultados:</h3>
             <ul>
                 {history.map((value, index) =>(
-                    <li key={index}>Resultado {index +1}: {value}</li>
+                    <li key={index}>Resultado {index +1}°: {value}</li>
                 ))}
             </ul>
         </div>

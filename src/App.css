@@ -66,3 +66,13 @@
 .results{
   font-size: 20px;
 }
+
+.toolTip {
+  background: white;
+  color: black;
+  padding: 1px 1px;
+  font-size: 12px;
+  margin-left: 200px;
+  margin-top: 5px;
+  border-radius: 4px;
+}

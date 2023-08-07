@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import withToolTip from '../HOC/withToolTip';
 
 
 const Num2 = ({value, onChange}) =>{
@@ -11,4 +12,4 @@ const Num2 = ({value, onChange}) =>{
     )
 }
 
-export default Num2
+export default withToolTip(Num2, 'Entre com o segundo Numero')

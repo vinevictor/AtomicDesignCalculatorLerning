@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import withToolTip from '../HOC/withToolTip';
 
 const Num1 = ({value, onChange}) =>{
 
@@ -11,4 +12,4 @@ const Num1 = ({value, onChange}) =>{
     )
 }
 
-export default Num1
+export default withToolTip(Num1,'Entre com o primeiro Numero')
